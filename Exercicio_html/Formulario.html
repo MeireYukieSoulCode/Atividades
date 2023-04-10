@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <style>
+        html {
+            background-color: rgb(224, 193, 193);
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+
+        form {
+            padding-top: 40px;
+            padding-left: 80px;
+        }
+
+        p {
+            font-size:small;
+            padding: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sugestão de novas obras para o meu Top 5</h1>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Prencha aqui seu nome completo"><br/><br/>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Preencha aqui seu email"><br><br>
+
+        <label for="tipo">Qual o tipo de obra?</label>
+        <select> name="tipo" id="tipo">
+            <option value="filme"> Filme</option>
+            <option value="serie"> Série</option>
+            <option value="desenho"> Desenho</option>
+        </select><br/><br/>
+
+        <label for="link">Tem algum link do trailer?</label>
+        <input type="url" name="link" id="link" placeholder="Cole aqui o link do trailer"><br><br>
+
+        <input type="button" value="Enviar">
+    </form>
+
+    <p><b>Para voltar para a página das séries favoritas <a href="Series.html" rel="next">clique aqui
+
+</body>
+</html>
