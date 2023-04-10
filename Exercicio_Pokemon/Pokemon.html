@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagem/pokemon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokemon</title>
+</head>
+<body>
+    
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="Login.html">Cadastro Mestre Pokemon</a>
+        <a href="Login.html">Cadastro Pokemon</a>
+    </nav>
+
+<header>
+    <img src="Imagem/Pokemon3.jpg" alt="">
+    <h1>Cadastro Pokemon</h1>
+</header>
+
+<main>
+    <p>Preencha aqui os dados do Pokemon capturado</p>
+    <form>
+        <label for="Id">Nome do Pokemon:</label>
+        <input type="text" name="nome" id="nome" placeholder="Prencha aqui seu nome completo"><br/><br/>
+
+        <label for="captura">Data de Captura:</label>
+        <input type="date" name="captura" id="captura" ><br/><br/>
+
+        <label for="bolas">Usou quantas pokebolas nele?</label>
+        <input type="number" name="pokebola" id="pokebola"><br/><br/>
+
+        <label for="tipo">Tipo do Pokemon</label>
+                <select> name="local" id="local">
+                    <option value="normal"> Normal</option>
+                    <option value="agua"> Água</option>
+                    <option value="ar"> Ar</option>
+                    <option value="planta"> Planta</option>
+                    <option value="eletrico"> Elétrico</option>
+                    <option value="gelo"> Gelo</option>
+                </select><br><br>
+
+        <label for="info">Alguma informação a acrescentar sobre a captura?</label>
+        <input type="text" name="info" id="info"><br>  
+    
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagem/pokemon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="Login.html">Cadastro Mestre Pokemon</a>
+        <a href="Login.html">Cadastro Pokemon</a>
+    </nav>
+
+    <header>
+        <img src="Imagem/pikachu.jpg" alt="pikachu">
+        <h1>Cadastro Mestre Pokemon</h1>
+    </header>
+
+    <main>
+        <p>Preencha seus dados para se cadastrar no nosso site</p>
+        <form>
+            <label for="Id">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Prencha aqui seu nome completo"><br/><br/>
+            
+            <label for="Id">Escolha um nome para Id Mestre:</label>
+            <input type="text" name="Id" id="Id" placeholder="Prencha aqui seu Id Mestre"><br/><br/>
+            
+            <label for="local">Região de atuação</label>
+                <select> name="local" id="local">
+                    <option value="Kanto"> Kanto</option>
+                    <option value="Johto"> Johto</option>
+                    <option value="Hoenn"> Hoenn</option>
+                    <option value="Sinnoh"> Sinnoh</option>
+                    <option value="Unova"> Unova</option>
+                    <option value="Kalos"> Kalos</option>
+                </select><br><br>
+            
+            <input type="button" value="Cadastro">
+        </form>
+        
+        <p>Faça login para acessar a página de cadastro dos Pokemons capturados</p>
+        <form>
+            <label for="Id">Id Mestre:</label>
+            <input type="text" name="mestre" id="mestre" placeholder="Prencha aqui seu Id mestre"><br/><br/>
+            <label for="senha">Senha</label>
+            <input type="password" placeholder="Crie uma senha"><br/><br/>
+            <button>
+                <a href="Pokemon.html">Login</a>
+            </button>
+            
+
+
+        </form>
+    </main>
+
+
+</body>
