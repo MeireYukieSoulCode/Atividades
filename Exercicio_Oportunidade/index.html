@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+
+    <style>
+        html {
+            background-color: rgba(178, 217, 248, 0.932);
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+        }
+
+        header {
+            padding-left: 250px;
+        }
+
+        form {
+            padding-left: 150px;
+            padding-top: 30px;
+        }
+           
+    </style>
+
+</head>
+
+<header>
+    <h1>Cadastro do Cliente</h1>
+</header>
+
+<body>
+    <form>
+        <input type="checkbox" name="particular"> Particular<br/><br/>
+
+        <label for="nome">Nome da Oportunidade:</label>
+        <input type="text" name="nome" id="nome" placeholder="Prencha aqui o nome da Oportunidade"><br/><br/>
+
+        <label for="valor">Valor da Oportunidade:</label>
+        <input type="text" name="valor" id="valor" placeholder="Preencha aqui o valor da Oportunidade"><br><br>
+
+        <label for="fase">Fase da Oportunidade:</label>
+        <select> name="fase" id="fase">
+            <option value="Prospecting"> Prospecting</option>
+            <option value="Qualification"> Qualification</option>
+            <option value="Needs Analysis"> Needs Analysis</option>
+            <option value="Value Proposition"> Value Proposition</option>
+            <option value="Id. Decision Makers"> Id. Decision Makers</option>
+            <option value="Perception Analysis"> Perception Analysis</option>
+            <option value="Proposal/Price Quote"> Proposal/Price Quote</option>
+            <option value="Negotiation/Review"> Negotiation/Review</option>
+            <option value="Closed Won"> Closed Won</option>
+            <option value="Closed Lost"> Closed Lost</option>
+        </select><br/><br/>
+
+        <label for="tipo">Tipo de Oportunidade:</label>
+        <select> name="tipo" id="tipo">
+            <option value="Existing Customer - Upgrade"> Existing Customer - Upgrade</option>
+            <option value="Existing Customer - Replacement"> Existing Customer - Replacement</option>
+            <option value="Existing Customer - Downgrade"> Existing Customer - Downgrade</option>
+            <option value="New Customer"> New Customer</option>
+        </select><br/><br/>
+        
+    </form>
+
+</body>
+</html>
