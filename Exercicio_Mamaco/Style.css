@@ -1,0 +1,22 @@
+html{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+table{
+    border: 1px solid black;
+    justify-content: center;
+}
+
+tr, td, th{
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
