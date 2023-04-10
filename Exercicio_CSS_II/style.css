@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'beach';
+    src: url('font/Sweety\ Beach.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'beach';
+}
+
+.bg-fundo {
+    background-image: url(imagem/vegetais.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat:repeat;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+}
+
+.letra {
+    font-weight: 600;
+}
+
